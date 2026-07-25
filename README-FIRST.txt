@@ -1,31 +1,37 @@
-CABLES PRO 3.1.1 — CONTINUE BUTTON REPAIR
+CABLES PRO 3.1.2 — RESUME JOB AND NEW JOB REPAIR
 
-This repair addresses the fault where tapping Continue on page one did nothing.
+This release repairs:
+- Resume Job failing after leaving the service form
+- Start New Job failing after a draft had been saved
+- Saved-job loading resetting itself before reopening
+- Active-job references becoming stuck
+- Silent errors caused by damaged local browser data
 
-CHANGES
-- Rebuilt the page-navigation handler
-- Added a second event-listener fallback for iPhone Safari
-- Removed a possible browser variable-name collision
-- Replaced compatibility-sensitive JavaScript
-- Added safer local-storage recovery
-- Added visible error reporting instead of silent failure
-- Changed the service-worker cache version
+A new recovery button is included:
+More > Clear Active Draft
 
 UPLOAD
-1. Extract this ZIP.
-2. Replace the seven current files in the root of the GitHub repository.
+1. Extract the ZIP.
+2. Replace all seven files in the root of the GitHub repository.
 3. Commit the changes.
 4. Wait around one minute for GitHub Pages.
 
-IMPORTANT IPHONE REFRESH
-1. Remove the Cables Pro icon from the Home Screen.
-2. Open the GitHub Pages address in Safari.
+IPHONE REFRESH
+1. Remove the old Cables Pro Home Screen icon.
+2. Open the Pages address directly in Safari.
 3. Refresh twice.
-4. Add it to the Home Screen again.
-5. If the old version remains:
+4. If necessary, clear the GitHub Pages entry:
    Settings > Safari > Advanced > Website Data
-   Remove the GitHub Pages site entry, then reopen the website.
+5. Add Cables Pro back to the Home Screen.
 
-TEST
-Open Alarm Service, enter a customer name, and press Continue.
-The second section should be System Details.
+TEST ORDER
+1. Start New Job.
+2. Complete pages 1 and 2.
+3. Press Save Draft.
+4. Return to Home.
+5. Press Resume Job.
+6. Return to Home and press the yellow + button to start another new job.
+
+If an old damaged draft remains from the previous release:
+More > Clear Active Draft
+Then begin a new job.
