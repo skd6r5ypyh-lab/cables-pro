@@ -1,20 +1,24 @@
 {
-  "name": "Cables Pro",
+  "name": "Cables Pro 2.1",
   "short_name": "Cables Pro",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#111111",
-  "theme_color": "#111111",
+  "background_color": "#0b1014",
+  "theme_color": "#0b1014",
+  "description": "Professional field service software for Cables Electrical Installations Limited",
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
