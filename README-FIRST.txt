@@ -1,44 +1,31 @@
-CABLES PRO VERSION 3.0
+CABLES PRO 3.1.1 — CONTINUE BUTTON REPAIR
 
-WHAT THIS BUILD CHANGES
-- Completely redesigned premium dashboard
-- Daily job overview rather than oversized menu tiles
-- Smaller professional quick-access controls
-- Floating New Job button
-- Premium dark iOS-style visual system
-- Customer database and search
-- Saved jobs and drafts
-- Intruder alarm servicing workflow
-- Panel and system details
-- Power and battery readings
-- Device-by-device testing
-- Engineer notes, faults and recommendations
-- Photo capture
-- Customer signature
-- Branded report preview
-- Print / Save PDF
-- Upcoming service calendar
-- Installable PWA
-- Offline app shell
-- Local JSON backup export
+This repair addresses the fault where tapping Continue on page one did nothing.
 
-UPLOAD TO GITHUB
-1. Download and extract the ZIP.
-2. Open the existing cables-pro repository.
-3. Replace the current root files with every file from this build.
-4. Commit to the main branch.
-5. Keep GitHub Pages set to main / root.
-6. Wait for Pages to redeploy.
+CHANGES
+- Rebuilt the page-navigation handler
+- Added a second event-listener fallback for iPhone Safari
+- Removed a possible browser variable-name collision
+- Replaced compatibility-sensitive JavaScript
+- Added safer local-storage recovery
+- Added visible error reporting instead of silent failure
+- Changed the service-worker cache version
 
-IMPORTANT CACHE STEP
-Because an older service worker may still be installed:
-- Open the Pages website in Safari.
-- Refresh it twice.
-- If the old version remains, remove the Cables Pro Home Screen icon.
-- In iPhone Settings > Safari > Advanced > Website Data, remove the GitHub Pages site data.
-- Reopen the site and add it to the Home Screen again.
+UPLOAD
+1. Extract this ZIP.
+2. Replace the seven current files in the root of the GitHub repository.
+3. Commit the changes.
+4. Wait around one minute for GitHub Pages.
 
-DATA
-This release stores data locally on the device.
-Use Settings > Export backup regularly.
-Secure cloud sync, multi-engineer login and server email are not included yet.
+IMPORTANT IPHONE REFRESH
+1. Remove the Cables Pro icon from the Home Screen.
+2. Open the GitHub Pages address in Safari.
+3. Refresh twice.
+4. Add it to the Home Screen again.
+5. If the old version remains:
+   Settings > Safari > Advanced > Website Data
+   Remove the GitHub Pages site entry, then reopen the website.
+
+TEST
+Open Alarm Service, enter a customer name, and press Continue.
+The second section should be System Details.
