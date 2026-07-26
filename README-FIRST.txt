@@ -1,48 +1,16 @@
-CABLES PRO V6.0.0 — ENGINEER EDITION
+CABLES PRO V7.0.0 — OFFICE & WORKFLOW EDITION
 
-LIVE MODULES
-- Intruder Alarm servicing
-- Electrical inspection records
-- CCTV servicing and commissioning
-- Fire alarm inspection records
-- Emergency-lighting functional and duration-test records
-- PAT testing records
-- Network and Wi-Fi installation/maintenance records
-- EV charger installation and maintenance records
-- Quotations, diary, stock control and engineer profiles
-
-NEW IN V6
-- Tailored checklist for every technical module
-- Automatic module-specific report numbering
-- Draft and completed technical records
-- Printable / PDF-ready technical record previews
-- Asset register with:
-  asset or QR code
-  customer and site
-  category
-  make, model and serial number
-  equipment location
-  service dates
-  operational status
-- Searchable technical records and assets
-- Voice dictation into defect notes where the browser supports Web Speech
-- Offline storage retained
-- Full backup now includes technical records and assets
+NEW IN V7
+- V7 Office business control centre
+- Global search across customers, jobs, technical records and assets
+- Invoice creation, numbering, due dates and payment status
+- Service contracts with frequency, annual value and next visit
+- Dashboard warnings for overdue invoices and contracts due
+- Full backup includes invoices and contracts
+- Every V6 Engineer Edition module remains included
 
 IMPORTANT
-These are field inspection and maintenance records. They do not claim to replace any prescribed statutory, scheme-provider or certification-body certificate. Use the correct approved certification process where one is required.
+This is still local-first. Data is stored in the browser on the device. True multi-device cloud sync and secure shared accounts require a hosted backend.
 
-INSTALLATION
-1. Extract the ZIP.
-2. Replace every file in the GitHub Pages repository root.
-3. Commit to the main branch.
-4. Wait for deployment.
-5. Refresh Safari twice.
-6. If necessary, remove the old Home Screen shortcut and reinstall it.
-
-TEST
-1. Open Start New Job.
-2. Select Electrical, CCTV, Fire Alarm, Emergency Lighting, PAT, Network or EV.
-3. Complete and preview a record.
-4. Add an asset and search for it.
-5. Export a full backup.
+INSTALL
+Extract the ZIP, replace all repository-root files, commit to main and wait for GitHub Pages to deploy. Refresh Safari twice and reinstall the Home Screen shortcut if the old cache remains.
