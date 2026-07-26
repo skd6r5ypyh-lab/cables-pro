@@ -1,16 +1,41 @@
-CABLES PRO V7.0.0 — OFFICE & WORKFLOW EDITION
+CABLES PRO V8.0.0 — PROFESSIONAL EDITION FOUNDATION
 
-NEW IN V7
-- V7 Office business control centre
-- Global search across customers, jobs, technical records and assets
-- Invoice creation, numbering, due dates and payment status
-- Service contracts with frequency, annual value and next visit
-- Dashboard warnings for overdue invoices and contracts due
-- Full backup includes invoices and contracts
-- Every V6 Engineer Edition module remains included
+This is a clean modular rebuild, not another patch to V7.
+
+WHAT IS INCLUDED
+- TypeScript source code
+- Compiled static PWA in /dist
+- Apple-style responsive interface
+- Offline service worker
+- Local-first data store
+- Dashboard and global search
+- Jobs and workflow stages
+- Customers
+- Diary
+- Quotations
+- Invoices
+- Service contracts
+- Technical reports
+- Asset register
+- Stock control
+- Full JSON backup
+- en-GB dates and GBP currency formatting
+
+ARCHITECTURE
+- src/app.ts: application UI and routing
+- src/db.ts: local data and backups
+- src/types.ts: typed business models
+- public/: PWA assets
+- dist/: ready-to-deploy GitHub Pages build
+
+DEPLOY
+Upload the CONTENTS of the dist folder to the root of the GitHub Pages repository.
+
+DEVELOPMENT
+npm run check
+npm run build
 
 IMPORTANT
-This is still local-first. Data is stored in the browser on the device. True multi-device cloud sync and secure shared accounts require a hosted backend.
-
-INSTALL
-Extract the ZIP, replace all repository-root files, commit to main and wait for GitHub Pages to deploy. Refresh Safari twice and reinstall the Home Screen shortcut if the old cache remains.
+This V8 foundation is local-first. Secure login, multi-user cloud sync, office/engineer sharing,
+automated online email and customer portal access require a hosted backend and are deliberately
+not simulated in this release.

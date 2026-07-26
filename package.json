@@ -1,0 +1,13 @@
+{
+  "name": "cables-pro-v8",
+  "private": true,
+  "version": "8.0.0",
+  "description": "Cables Pro Professional Edition - modular offline-first PWA",
+  "scripts": {
+    "build": "tsc && node build.mjs",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  }
+}
