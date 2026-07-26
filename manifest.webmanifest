@@ -1,0 +1,21 @@
+{
+  "name": "Cables Pro V10 Engineer Edition",
+  "short_name": "Cables Pro V10",
+  "description": "Engineer-focused alarm servicing with site timing and signed PDF reports",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111e",
+  "theme_color": "#07111e",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
