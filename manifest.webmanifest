@@ -1,0 +1,21 @@
+{
+  "name": "Cables Pro V13.1 Multi-Job Workflow",
+  "short_name": "Cables Pro V13.1",
+  "description": "Multi-job diary workflow for alarm, electrical, CCTV, networking, aerial and general work",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07111e",
+  "theme_color": "#07111e",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
