@@ -1,55 +1,36 @@
-CABLES PRO V4.0.0 — CLEAN REBUILD
+CABLES PRO V4.1.0
 
-This is a clean multi-file rebuild, not a patch of the earlier single-file prototype.
+NEW IN THIS RELEASE
+- Automatic draft saving every five seconds
+- Searchable customer database
+- Automatic report numbers such as CP-2026-0001
+- Arrival and departure times
+- Automatic time-on-site calculation
+- Parts and materials used
+- Improved dashboard:
+  Jobs Today
+  Customers
+  Services Due This Week
+  Drafts
+- Today's Jobs section
+- Service Reminders section
+- Report numbers shown in jobs and reports
+- Existing V4 save, resume, photos, signature and PDF workflow retained
 
-CORE WORKFLOW
-Dashboard > New Job > Alarm Service > Save Draft > Home > Resume Job > Complete > Report
+UPLOAD
+1. Extract the ZIP.
+2. Replace all current repository-root files with the files from this ZIP.
+3. Commit to the main branch.
+4. Wait for GitHub Pages to redeploy.
+5. Remove the old Home Screen icon and reinstall from Safari if the old cache remains.
 
-INCLUDED
-- Reliable route-based navigation
-- Separate index.html, styles.css and app.js
-- New V4 local-storage keys to avoid damaged V3 drafts
-- Start New Job
-- Save Draft
-- Resume Active Job
-- Clear Active Draft
-- Customer database
-- Intruder alarm service workflow
-- System information
-- Power tests
-- Device-by-device testing
-- Engineer notes
-- Photographs
-- Customer signature
-- Report preview
-- Print / Save PDF
-- Backup export
-- Offline PWA shell
+TEST
+1. Start a new Alarm Service.
+2. Enter a customer and times.
+3. Wait five seconds and return Home.
+4. Resume the draft.
+5. Complete the job and preview its numbered report.
 
-UPLOAD TO GITHUB
-1. Extract this ZIP.
-2. Delete the old website files in the repository root.
-3. Upload every file from this ZIP:
-   index.html
-   styles.css
-   app.js
-   manifest.webmanifest
-   sw.js
-   logo.png
-   icon-192.png
-   icon-512.png
-   README-FIRST.txt
-4. Commit to the main branch.
-5. Leave GitHub Pages on main / root.
-
-IPHONE INSTALL
-1. Remove the previous Cables Pro Home Screen icon.
-2. Open the GitHub Pages address in Safari.
-3. Refresh twice.
-4. Add to Home Screen.
-5. If an old page remains, clear the GitHub Pages entry:
-   Settings > Safari > Advanced > Website Data
-
-IMPORTANT
-V4 uses brand-new storage keys, so corrupted V3 drafts are ignored.
-Data remains local to Safari on that device. Export backups regularly.
+DATA
+Records remain stored locally in Safari on that device.
+Use More > Export Backup regularly.
