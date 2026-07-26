@@ -1,41 +1,36 @@
-CABLES PRO V8.0.0 — PROFESSIONAL EDITION FOUNDATION
+CABLES PRO V8.1 — EASY DEPLOY EDITION
 
-This is a clean modular rebuild, not another patch to V7.
+This release has NO folders.
 
-WHAT IS INCLUDED
-- TypeScript source code
-- Compiled static PWA in /dist
-- Apple-style responsive interface
-- Offline service worker
-- Local-first data store
-- Dashboard and global search
-- Jobs and workflow stages
-- Customers
-- Diary
-- Quotations
-- Invoices
-- Service contracts
-- Technical reports
-- Asset register
-- Stock control
-- Full JSON backup
-- en-GB dates and GBP currency formatting
+UPLOAD ALL EIGHT FILES DIRECTLY TO THE ROOT OF YOUR GITHUB REPOSITORY:
 
-ARCHITECTURE
-- src/app.ts: application UI and routing
-- src/db.ts: local data and backups
-- src/types.ts: typed business models
-- public/: PWA assets
-- dist/: ready-to-deploy GitHub Pages build
+1. app.js
+2. index.html
+3. styles.css
+4. sw.js
+5. manifest.webmanifest
+6. logo.png
+7. icon-192.png
+8. icon-512.png
 
-DEPLOY
-Upload the CONTENTS of the dist folder to the root of the GitHub Pages repository.
+GITHUB STEPS
 
-DEVELOPMENT
-npm run check
-npm run build
+1. Remove the files waiting in the current unfinished upload screen, or leave that page.
+2. Return to the main repository page.
+3. Choose Add file > Upload files.
+4. Drag all eight V8.1 files onto the upload box.
+5. Confirm all eight names appear.
+6. Use the commit message:
+   Update to Cables Pro V8.1 Easy Deploy
+7. Click Commit changes.
+8. Wait approximately two minutes.
+9. Open the app and refresh twice.
+10. On iPhone or iPad, remove and reinstall the Home Screen shortcut only if the old cached version remains.
 
 IMPORTANT
-This V8 foundation is local-first. Secure login, multi-user cloud sync, office/engineer sharing,
-automated online email and customer portal access require a hosted backend and are deliberately
-not simulated in this release.
+
+Do not create a js folder.
+Do not upload the previous V8 app.js, db.js or types.js files.
+This V8.1 app uses one combined app.js file in the repository root.
+
+Existing V8 browser data uses the same local storage key and should remain available on the same browser and website address.
